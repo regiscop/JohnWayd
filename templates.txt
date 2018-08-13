@@ -1,0 +1,201 @@
+Shut up #tone=stopspamming
+Stop spamming me #tone=stopspamming
+stop send me messages #tone=stopspamming
+Please stop that #tone=stopspamming
+
+
+
+menu #help=true
+info #help=true
+help #help=true
+more #help=true
+I need help #help=true
+What can you do? #help=true
+ask question #question=true
+explore #question=true
+seed #question=true
+start chatting #chatting=true
+end #stopdiscussion=true
+
+fucking hell #tone=rude
+fucking #tone=rude
+fuck you #tone=rude
+merde #tone=rude
+shit #tone=rude
+fuck #tone=rude
+
+
+yes #boolean=true
+Yesss!!!! #boolean=true
+affirmative #boolean=true
+I confirm #boolean=true
+no #boolean=false
+n #boolean=false
+y #boolean=true
+No! #boolean=false
+Nope #boolean=false
+ok #boolean=true
+Sure #boolean=true
+true #boolean=true
+correct #boolean=true
+Indeed #boolean=true
+Affirmative #boolean=true
+I confirm #boolean=true
+confirmed #boolean=true
+Yep #boolean=true
+Yea #boolean=true
+Yeaaaaaaaaaa #boolean=true
+Yeaaaa #boolean=true
+Please, no #boolean=false
+False #boolean=false
+Negative #boolean=false
+not correct #boolean=false
+Indeed #boolean=true
+Ok #boolean=true
+Ok! #boolean=true
+nok #boolean=false
+Yeaaa #boolean=true
+O yes #boolean=true
+Sounds great #boolean=true
+Cool #boolean=true
+Great #boolean=true
+Yes! #boolean=true
+Yes!!! #boolean=true
+of course #boolean=true
+Getting ready #boolean=true
+delete all data about me #GDPR=true
+
+
+why not? #sentiment=maybe
+maybe #sentiment=maybe
+Sometimes #sentiment=maybe
+it depends #sentiment=maybe
+I don't know. #sentiment=unsure 
+Donno #sentiment=unsure
+No idea #sentiment=unsure
+Dunno #sentiment=unsure
+
+
+female #gender=female
+Female! #gender=female
+women #gender=female
+I'm a women #gender=female
+male #gender=male
+men #gender=male
+boy #gender=male
+girl #gender=female
+slut #gender=female #tone=rude
+guy #gender=male
+Dick #tone=rude #gender=male
+Pussy #gender=female #tone=rude
+I have a penis #gender=male #tone=rude
+
+could you please stop spamming me? #logic=question #tone=polite
+
+ where to go next? #NER=whosnext
+ I'll stop here #NER=stoprunning
+ I'll go home  #NER=stoprunning
+ I wanna stop running  #NER=stoprunning
+ I stop here  #NER=stoprunning
+ next #NER=whosnext
+
+
+I @activity a lot #sentiment=positive
+I love @activity #sentiment=positive
+i like @activity #sentiment=positive
+I am into @activity #sentiment=positive
+i am a big fan of @activity #sentiment=positive
+I like to @activity in @place #sentiment=positive
+I like @activity, @activity and @activity #sentiment=positive
+do you have activities related to @activity?
+I really do not like @activity #sentiment=negative
+I really do not like @activity, this is sure! #sentiment=negative
+I am not a big fan of @activity #sentiment=negative
+What about @activity?
+Do you organize activities like @activity?
+Do you organize things like @activity?
+Do you offer @activity?
+i like @activity and @activity #logic=and
+i like @activity, @activity #logic=and
+i like @activity, @activity, @activity and @activity #logic=and
+i like @activity, @activity and @activity #logic=and
+
+
+facebook #channel=facebook
+Facebool #channel=facebook
+Facebook Messenger #channel=facebook
+Messenger #channel=facebook
+FB #channel=facebook
+Fb #channel=facebook
+Faceb  #channel=facebook
+FaceB  #channel=facebook
+The Facebook #channel=facebook
+Facebook #channel=facebook
+facebook #channel=facebook
+whatsapp #channel=whatsapp
+Whatsapp #channel=whatsapp
+What'sapp #channel=whatsapp
+WA #channel=whatsapp
+whatsup #channel=whatsapp
+what'sapp #channel=whatsapp
+whats'app #channel=whatsapp
+sms #channel=sms
+sms #channel=sms
+messages #channel=sms
+message #channel=sms
+smss #channel=sms
+skype #channel=skype
+skype #channel=skype
+Mycrosoft #channel=skype
+skype ID #channel=skype
+Skypee #channel=skype
+telegram #channel=telegram
+Telegram #channel=telegram
+Telegrm #channel=telegram
+email #channel=email
+email #channel=email
+mail #channel=email
+e-mail #channel=email
+maibox #channel=email
+viber #channel=viber
+Viber #channel=viber
+Viiber #channel=viber
+kik #channel=kik
+kik #channel=kik
+Kiik #channel=kik
+Kik #channel=kik
+KIK #channel=kik
+KIk #channel=kik
+kik #channel=kik
+kikk #channel=kik
+line #channel=line
+Line #channel=line
+line #channel=line
+lin #channel=line
+Lin #channel=line
+wechat #channel=wechat
+wechat #channel=wechat
+Wechat #channel=wechat
+slack #channel=slack
+slack #channel=slack
+Slack #channel=slack
+tango #channel=tango
+tango #channel=tango
+Tango #channel=tango
+groupme #channel=groupme
+groupme #channel=groupme
+Groupme #channel=groupme
+GroupMe #channel=groupme
+qqmobile #channel=qqmobile
+qqmobile #channel=qqmobile
+QQ mobile #channel=qqmobile
+qq mobiles #channel=qqmobile
+qq #channel=qqmobile
+QQ #channel=qqmobile
+
+i'm married #status=relation
+I have a husband #status=relation
+I have a girlfriend #status=relation
+I have a boyfriend #status=relation
+I'm single #status=single
+I'm not single #status=relation
